@@ -1,0 +1,37 @@
+{
+  "name": "jspm-bundle-dynamic-import-issue",
+  "version": "1.0.0",
+  "description": "command jspm bundle fails if dynamic import is used with JSPM@0.17.0-beta.41",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fusionstrings/jspm-bundle-dynamic-import-issue.git"
+  },
+  "keywords": [
+    "JSPM",
+    "dynamic",
+    "import"
+  ],
+  "author": "Dilip Kr. Shukla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fusionstrings/jspm-bundle-dynamic-import-issue/issues"
+  },
+  "homepage": "https://github.com/fusionstrings/jspm-bundle-dynamic-import-issue#readme",
+  "devDependencies": {
+    "jspm": "^0.17.0-beta.41"
+  },
+  "jspm": {
+    "name": "jspm-stack",
+    "main": "index.js",
+    "configFiles": {
+      "jspm": "jspm.config.js"
+    },
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.21"
+    }
+  }
+}
